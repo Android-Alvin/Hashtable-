@@ -1,4 +1,4 @@
-### HashTable**
+### HashTable
 
 - 底层数组+链表实现，无论key还是value都**不能为null**，线程**安全**，实现线程安全的方式是在修改数据时锁住整个HashTable，效率低，ConcurrentHashMap做了相关优化。
 - 初始size为**11**，扩容：newsize = olesize*2+1
